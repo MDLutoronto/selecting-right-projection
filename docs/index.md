@@ -6,13 +6,16 @@ permalink: "/"  #! Remove this if not the homepage
 staff:
  - name: Jordan Hale
    link: 
+maintainer:
+ - name: Cole White
+   link: https://library.utoronto.ca/staff/cole-white
 ---
 
 # Selecting the right projection
 
 Unsure of which projection to use in your GIS work? This tutorial will help you figure out your options.
 
-For an accessible introduction to coordinate systems and map projections, please see the [Coordinate Systems and Projections](http://guides.scholarsportal.info.myaccess.library.utoronto.ca/geoportal/maps#s-lg-box-4434794) page in the Scholars GeoPortal user guide.
+For an accessible introduction to coordinate systems and map projections, please see the [Coordinate Systems and Projections](go.openathens.net/redirector/utoronto.ca?url=http://guides.scholarsportal.info/geoportal/maps#s-lg-box-4434794) page in the Scholars GeoPortal user guide.
 
 How do you decide what projected coordinate system is best for your map? If your GIS project is ultimately destined to be a printed map, you may choose to select one [based on its visual appeal](https://en.wikipedia.org/wiki/List_of_map_projections), possibly a conformal projection that accurately preserves the shapes of landmasses. However, if you are conducting spatial analysis that involves accurate measures of areas or distances, you should ensure that your chosen projection minimizes this type of distortion, perhaps by opting for a true equal\-area projection. Other projections are suited for the representation of particular countries or regions, and were designed to minimize the distortion of both angles and distances across the areas they are tailored towards.
 
