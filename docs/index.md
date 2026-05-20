@@ -25,6 +25,6 @@ Some other things to keep in mind when selecting a projection:
 * Certain projections are better suited to larger and smaller scales of maps (remember, larger scale \= smaller area, smaller scale \= larger area; in other words, a map of Toronto would be at a larger scale than a map of Canada).
 * ArcGIS organizes projected coordinate systems in folders named according to particular geographies or shared properties. Browsing through these folders may give you an idea of what projections might be suitable. For example, if working in Canada, take a look within the Projected Coordinate Systems \> Continental \> North America and Projected Coordinate Systems \> National Grids \> Canada folders.
 
-Technique: [Projecting](/technique/projecting) \| Tools: [ArcGIS](/tools/arcgis), [Global Mapper](/tools/global-mapper-0), [QGIS](/tools/qgis) \| Data Format: [Raster](/data-format/raster), [Vector](/data-format/vector)
+**Technique:** [Projecting](https://mdlutoronto.github.io/tutorials-search/?technique=Projecting) \| **Tools:** [ArcGIS](https://mdlutoronto.github.io/tutorials-search/?tool=ArcGIS), [Global Mapper](https://mdlutoronto.github.io/tutorials-search/?tool=Global+Mapper), [QGIS](https://mdlutoronto.github.io/tutorials-search/?tool=QGIS) \| **Data Format:** [Raster](https://mdlutoronto.github.io/tutorials-search/?dataFormat=Raster), [Vector](https://mdlutoronto.github.io/tutorials-search/?dataFormat=Vector)
 
 **Date Created:** 2016\-04\-26 **Updated:** 2021\-09\-02
