@@ -4,11 +4,10 @@ layout: "home"
 description: "Unsure of which projection to use in your GIS work? This tutorial will help you figure out your options."
 permalink: "/"  #! Remove this if not the homepage
 staff:
- - name: Jordan Hale
-   link: 
+    - name: Jordan Hale
 maintainer:
- - name: Cole White
-   link: https://library.utoronto.ca/staff/cole-white
+    - name: Cole White
+      link: https://library.utoronto.ca/staff/cole-white
 created_date: 2016-04-26
 ---
 
@@ -16,7 +15,7 @@ created_date: 2016-04-26
 
 Unsure of which projection to use in your GIS work? This tutorial will help you figure out your options.
 
-For an accessible introduction to coordinate systems and map projections, please see the [Coordinate Systems and Projections](go.openathens.net/redirector/utoronto.ca?url=http://guides.scholarsportal.info/geoportal/maps#s-lg-box-4434794) page in the Scholars GeoPortal user guide.
+For an accessible introduction to coordinate systems and map projections, please see the [Coordinate Systems and Projections](https://learn.scholarsportal.info/all-guides/geoportal/maps/) page in the Scholars GeoPortal user guide.
 
 How do you decide what projected coordinate system is best for your map? If your GIS project is ultimately destined to be a printed map, you may choose to select one [based on its visual appeal](https://en.wikipedia.org/wiki/List_of_map_projections), possibly a conformal projection that accurately preserves the shapes of landmasses. However, if you are conducting spatial analysis that involves accurate measures of areas or distances, you should ensure that your chosen projection minimizes this type of distortion, perhaps by opting for a true equal-area projection. Other projections are suited for the representation of particular countries or regions, and were designed to minimize the distortion of both angles and distances across the areas they are tailored towards.
 
@@ -26,4 +25,4 @@ Some other things to keep in mind when selecting a projection:
 * Certain projections are better suited to larger and smaller scales of maps (remember, larger scale = smaller area, smaller scale = larger area; in other words, a map of Toronto would be at a larger scale than a map of Canada).
 * ArcGIS organizes projected coordinate systems in folders named according to particular geographies or shared properties. Browsing through these folders may give you an idea of what projections might be suitable. For example, if working in Canada, take a look within the Projected Coordinate Systems > Continental > North America and Projected Coordinate Systems > National Grids > Canada folders.
 
-**Technique:** [Projecting](https://mdlutoronto.github.io/tutorials-search/?technique=Projecting) | **Tools:** [ArcGIS](https://mdlutoronto.github.io/tutorials-search/?tool=ArcGIS), [Global Mapper](https://mdlutoronto.github.io/tutorials-search/?tool=Global+Mapper), [QGIS](https://mdlutoronto.github.io/tutorials-search/?tool=QGIS) | **Data Format:** [Raster](https://mdlutoronto.github.io/tutorials-search/?dataFormat=Raster), [Vector](https://mdlutoronto.github.io/tutorials-search/?dataFormat=Vector)
+**Technique:** [Projecting](https://mdlutoronto.github.io/tutorials-search/?technique=Projecting) \| **Tools:** [ArcGIS](https://mdlutoronto.github.io/tutorials-search/?tool=ArcGIS), [Global Mapper](https://mdlutoronto.github.io/tutorials-search/?tool=Global+Mapper), [QGIS](https://mdlutoronto.github.io/tutorials-search/?tool=QGIS) \| **Data Format:** [Raster](https://mdlutoronto.github.io/tutorials-search/?dataFormat=Raster), [Vector](https://mdlutoronto.github.io/tutorials-search/?dataFormat=Vector)
